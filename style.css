@@ -2,6 +2,9 @@
     background-color: rgb(20, 44, 40);
     color: rgb(253, 203, 212);
 }
+.clearbackground{
+    background-color: transparent;
+}
 
 body{
     z-index: 1;
@@ -71,19 +74,16 @@ justify-content: space-between;
 
 padding: 20px;
 }
-.topleft div{
+ .topleftdiv{
     background:transparent;
-    display: flex;
-align-items: baseline;
-justify-content: left;
-align-self: center;
+
 width: 100%;
 margin: 3px;white-space: nowrap;
 margin-left: -10px;
     font-size:20px;
     animation:  1s ease-in-out xgetbegger ;
-}
-.topleft p{
+} 
+.topleftp{
     font-size:8px;
     animation:  1s ease-in-out turnmove;
     white-space: nowrap;
